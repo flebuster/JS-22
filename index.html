@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <div id="information" style="display: flex;">
+        <form>
+        </form>
+    </div>
+
+    <div id="all_info" style="display: none;">
+        <form>
+        </form>
+    </div>
+    
+    <div id="create_person" style="display: none;">
+        <h2>Добавление данных</h2>
+            <form>
+                <span>Имя</span>
+                <input type="text" id="FirstName" placeholder="Имя"  required>
+                <span>Фамилия</span>
+                <input type="text" id="LastName" placeholder="Фамилия" required>
+                <span>Отчество</span>
+                <input type="text" id="Patronymic" placeholder="Отчество" required>
+                <span>Возраст</span>
+                <input type="text" id=Old placeholder="30" required>
+                <span>Дети</span>
+                <input type="checkbox" id="Children">
+                <span>Должность</span>
+                <select id="Position">
+                    <option>-</option>
+                    <option>Back-end</option>
+                    <option>Front-end</option>
+                    <option>Desktop</option>
+                    <option>Mobile.dev</option>
+                </select>
+                <span>Стаж</span><input type="text" id="Experience" placeholder="5" required>
+                <span>Организация</span><select id="Organization">
+                    <option>-</option>
+                    <option>НЦЗУ</option>
+                    <option>БПЦ</option>
+                    <option>БПС</option>
+                    <option>ГомельЭнерго</option>
+                </select>
+                <input type="button" id="createPerson" class="Button" value="Добавить нового сотрудника">
+                <input type="button" id="mainMenu" class="Button" value="Главная страница">
+            </form>
+    </div>
+</body>
+<script src="/js/script.js"></script>
+</html>
