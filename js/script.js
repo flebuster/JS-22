@@ -150,7 +150,6 @@ function display(visibleId) {
 }
 class BaseClass {
     constructor(FirstName, Patronymic, LastName, Old, Children, Position, Experience, Organization) {
-   
         this.FirstName = FirstName;
         this.Patronymic = Patronymic;
         this.LastName = LastName;
@@ -161,7 +160,6 @@ class BaseClass {
         this.Organization = Organization;
     }
 
-   
     get FirstName() {
         return this._FirstName;
     }
@@ -171,7 +169,6 @@ class BaseClass {
         } else {
             this._FirstName = value
         }
-
     }
     
     get Patronymic() {
@@ -183,7 +180,6 @@ class BaseClass {
         } else {
             this._Patronymic = value
         }
-
     }
     
     get LastName() {
@@ -195,7 +191,6 @@ class BaseClass {
         } else {
             this._LastName = value
         }
-
     }
 
     get Old() {
